@@ -107,3 +107,6 @@ public class ReadValue2
 ```
 ####
 Note we have to use "**NewStatement**" imported form "**p1**" package instead of "**Statement**" previously imported from "**java.sql**" package
+
+## Working Demo :
+![Screenshot_20220921_185907](https://user-images.githubusercontent.com/69689387/191517279-6585cf58-fcc8-4916-b040-46892ad4d834.jpg)
