@@ -16,7 +16,8 @@
 - If Using an IDE, add external jar file to IDE environment , Google Search ("how to add/import external jar file in xyz IDE ")
  ## How to Use :
  ### Connect To Database 
- > import java.sql.*;
+ ```
+ import java.sql.*;
 public class ConnectDB 
 {
     public  Connection getConnection() 
@@ -47,10 +48,12 @@ public class ConnectDB
         System.out.println(connectDB.getConnection());
     }
 }
+```
 
 ### Read From Database :
 #### To get ResultSet return type
->import java.sql.*;
+```
+import java.sql.*;
 import java.util.*;
 public class readOld
 {
@@ -73,11 +76,9 @@ public class readOld
         }
     }
 }
-
+```
 #### To get JSON String return type :
-
->import java.io.StringWriter;
-import org.json.*;
+```
 import java.sql.*;
 import java.util.*;
 import p1.NewStatement;
@@ -103,5 +104,6 @@ public class ReadValue2
         }
     }
 }
+```
 ####
 Note we have to use "**NewStatement**" imported form "**p1**" package instead of "**Statement**" previously imported from "**java.sql**" package
