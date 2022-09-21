@@ -8,7 +8,7 @@
  - SQL - PosrgreSql 13 , pgadmin3
 ## Modifications in Driver:
  - Added new interface **NewStatement** inside **p1 package** which inherits from **Statement** interface from **java.sql** package to add more functions.
- - Added support for org.json [maven repository](https://mvnrepository.com/artifact/org.json/json) in build.gradel file for including JSON related operations.
+ - Added support for **org.json** [maven repository](https://mvnrepository.com/artifact/org.json/json) in build.gradel file for including JSON related operations without adding external **org-json.jar** file.
  - Added function **executeQueryStringJson(String query)** which returns JSON String as output.
 ## Driver Setup :
 - To  use the driver you'll have to add the driver .jar file to [classpath](https://www.geeksforgeeks.org/how-to-add-jar-file-to-classpath-in-java/)  if executing java script using terminal use :
