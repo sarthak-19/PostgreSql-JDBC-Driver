@@ -1,5 +1,6 @@
 # Instructions For Driver :
-
+## Download Modified Driver :
+[Jar File](https://github.com/sarthak-19/PostgreSql-JDBC-Driver/releases/download/driver/postgresql-42.5.1-SNAPSHOT-all.jar)
 ## Development Environment :
 
  -  Operating System - MX Linux antiX 5.10 64bit (systemd)
