@@ -6,6 +6,7 @@
  -  Operating System - MX Linux antiX 5.10 64bit (systemd)
  - Code Editor - Microsoft Visual Studio Code
  - Java IDE - BlueJ (for including driver jar file )
+ - JDK 11
  - SQL - PosrgreSql 13 , pgadmin3
 ## Modifications in Driver:
  - Added new interface **NewStatement** inside **p1 package** which inherits from **Statement** interface from **java.sql** package to add more functions.
